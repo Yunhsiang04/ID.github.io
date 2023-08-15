@@ -9,7 +9,6 @@ body{
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -30,7 +29,7 @@ body{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background-image: url(Pitcrue/test1.png);
+    background-image: url(Picture/test1.png);
     background-size: 100%;
     height: 50px;
     width: 200px;
