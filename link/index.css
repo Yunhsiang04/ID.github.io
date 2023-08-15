@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.content a{
+    margin-top: 5%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.content img{
+    height: 20px;
+}
+
+.content button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(Pitcrue/test1.png);
+    background-size: 100%;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
