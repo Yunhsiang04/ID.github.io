@@ -1,22 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #eeeeee;
-}
-
-.guide{
-    background-image: url(Picture/test1.png);
-    background-size: 100%;
-    padding: 2% 0 2% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    background-color: #A1FFFF;
 }
 
 .content{
-    margin-bottom: 100px;
+    width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,28 +14,30 @@ body{
     flex-wrap: wrap;
 }
 
-.content a{
-    margin-top: 5%;
-    text-decoration: none;
-    color: #000000;
+.content img{
+    display:block; 
+    margin:auto;
+    border-radius: 100px;
+    height: 150px;
 }
 
-.content img{
-    padding: 1% 0 1% 0;
+.content p{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content button img{
     height: 40px;
 }
 
 .content button{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    background-image: url(Picture/test1.png);
-    background-size: 100%;
-    height: 50px;
-    width: 400px;
-    border-radius: 20px;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color: #ffffff;
 }
