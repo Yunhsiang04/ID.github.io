@@ -7,6 +7,7 @@ body{
 .content{
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,4 +41,10 @@ body{
     border-radius: 100px;
     background-color: transparent;
     border-color: #ffffff;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
 }
